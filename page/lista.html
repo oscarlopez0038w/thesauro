@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Generador de Variaciones de Palabras</title>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html">Inicio</a>
+        <h1>Generador de Variaciones y Corrector Ortográfico</h1>
+        
+        <input type="file" id="fileInput" accept=".txt,.csv,.xlsx">
+        <div id="results">
+            <h2>Variaciones Generadas:</h2>
+            <button id="downloadBtn" style="display:none;">Descargar CSV</button>
+            <ul id="variationList"></ul>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typo-js@1.1.1/typo.min.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
